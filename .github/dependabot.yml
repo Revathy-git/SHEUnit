@@ -4,6 +4,12 @@
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
+registries:
+  Genesys/ixn-node-client:
+    type: git
+    url: https://git.scm.genesys.com/
+    username: relankum
+    password: ${{secrets.GIT_NODE_CLIENT}}
 updates:
   # Enable version updates for npm
   - package-ecosystem: "npm"
