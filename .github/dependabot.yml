@@ -5,7 +5,7 @@
 
 version: 2
 registries:
-  genesys/ixn-node-client:
+  ixn-node-client:
     type: npm-registry
     url: https://pureengage.jfrog.io/pureengage/api/npm/npm-local/
     username: relankum
@@ -17,6 +17,6 @@ updates:
     directory: "/"
     # Check the npm registry for updates every day (weekdays)
     registries:
-      - genesys/ixn-node-client
+      - ixn-node-client
     schedule:
       interval: "daily"
