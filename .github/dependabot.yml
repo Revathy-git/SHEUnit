@@ -6,8 +6,8 @@
 version: 2
 registries:
   ixn-node-client:
-    type: npm-registry
-    url: https://pureengage.jfrog.io/pureengage/api/npm/npm-local/
+    type: git
+    url: https://git.scm.genesys.com/
     username: relankum
     password: ${{secrets.GIT_NODE_CLIENT}}
 updates:
