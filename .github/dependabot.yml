@@ -5,7 +5,7 @@
 
 version: 2
 registries:
-  genesys/ixn-node-client:
+  @genesys/ixn-node-client:
     type: git
     url: https://git.scm.genesys.com/
     username: relankum
