@@ -7,7 +7,7 @@ version: 2
 registries:
   Genesys/ixn-node-client:
     type: git
-    url: https://git.scm.genesys.com/
+    url: https://git.scm.genesys.com/Genesys/ixn-node-client
     username: relankum
     password: ${{secrets.GIT_NODE_CLIENT}}
 updates:
